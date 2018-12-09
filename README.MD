@@ -14,8 +14,11 @@ Start the **Server,and both the clients**. Now check **Eureka Server **-
 ![3](https://user-images.githubusercontent.com/689226/49697189-59a18500-fbda-11e8-91b3-183a5bf105bb.JPG)
 
 <hr>
+
 **Client#1**
 ![4](https://user-images.githubusercontent.com/689226/49697195-6aea9180-fbda-11e8-9513-fe7adfae4134.JPG)
+
 <hr>
+
 **Client#2**
 ![5](https://user-images.githubusercontent.com/689226/49697201-7b027100-fbda-11e8-98f8-de4fb0c7deca.JPG)
