@@ -16,10 +16,14 @@ Start the **Server,and both the clients**. Now check **Eureka Server** -
 
 <hr>
 
-**Client#1**
-![4](https://user-images.githubusercontent.com/689226/49697195-6aea9180-fbda-11e8-9513-fe7adfae4134.JPG)
+**Client#1:**
+To execute, launch http://localhost:9098//getSchoolDetails/LaMartiniereCollege on your Web Browser:
+
+![5](https://user-images.githubusercontent.com/689226/49712229-789b2800-fc69-11e8-89ea-6d38eba9762e.JPG)
 
 <hr>
 
-**Client#2**
-![5](https://user-images.githubusercontent.com/689226/49697201-7b027100-fbda-11e8-98f8-de4fb0c7deca.JPG)
+**Client#2:**
+To execute, launch http://localhost:8098//getStudentDetailsForSchool/LaMartiniereCollege on your Web Browser:
+
+![4](https://user-images.githubusercontent.com/689226/49712351-06771300-fc6a-11e8-80a5-f23d42791a38.JPG)
