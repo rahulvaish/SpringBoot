@@ -1,0 +1,4 @@
+com\caching\rest\controller\MyController.class
+com\caching\rest\service\MyService.class
+com\caching\rest\service\Name.class
+com\caching\rest\SpringBootDemoApplication.class
