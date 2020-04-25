@@ -33,12 +33,11 @@ public class CalculatorController {
 	
 	@RequestMapping(value="/hello/{name}",method=RequestMethod.GET,produces="application/json")
 	@ResponseBody
-	public ResponseEntity hello(@PathVariable(value="name")String name) {
-		String str= "Calculator Client Application for "+name;
-		textOutput.setTextOutput(str);
-		if(name!=null) {
+	public ResponseEntity hello(@PathVariable(value="name")String name) {		
+		try{
+			textOutput= pseudoServiceForCalculatorService.getHelloString(name,"/hello/");
 			return ResponseEntity.status(HttpStatus.OK).body(textOutput);
-		}else {
+		}catch(Exception e) {
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 		}
 	}

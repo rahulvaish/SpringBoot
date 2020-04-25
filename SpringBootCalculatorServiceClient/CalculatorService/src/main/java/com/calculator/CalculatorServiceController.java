@@ -38,7 +38,7 @@ public class CalculatorServiceController {
 	@RequestMapping(value="/hello/{name}",method=RequestMethod.GET,produces="application/json")
 	@ResponseBody
 	public ResponseEntity hello(@PathVariable(value="name")String name) {
-		String str= "Calculator Service Application for "+name;
+		String str= "Calculator Application for "+name;
 		textOutput.setTextOutput(str);
 		if(name!=null) {
 			return ResponseEntity.status(HttpStatus.OK).body(textOutput);

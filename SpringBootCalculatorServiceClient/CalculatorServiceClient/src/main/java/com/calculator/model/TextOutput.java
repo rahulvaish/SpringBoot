@@ -18,4 +18,10 @@ public class TextOutput {
 		this.textOutput = textOutput;
 	}
 
+	@Override
+	public String toString() {
+		return "TextOutput [textOutput=" + textOutput + "]";
+	}
+
+	
 }
