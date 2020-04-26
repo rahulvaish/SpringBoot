@@ -27,7 +27,10 @@ public class NumbersOutput {
 		this.floatResult = floatResult;
 	}
 
-	
+	@Override
+	public String toString() {
+		return "NumbersOutput [intResult=" + intResult + ", floatResult=" + floatResult + "]";
+	}
 	
 	
 }
