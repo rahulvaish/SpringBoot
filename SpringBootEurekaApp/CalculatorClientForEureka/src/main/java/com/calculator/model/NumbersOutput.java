@@ -28,6 +28,9 @@ public class NumbersOutput {
 	}
 
 	
-	
+	@Override
+	public String toString() {
+		return "NumbersOutput [intResult=" + intResult + ", floatResult=" + floatResult + "]";
+	}
 	
 }
