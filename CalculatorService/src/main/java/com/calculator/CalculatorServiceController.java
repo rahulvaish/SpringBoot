@@ -31,7 +31,7 @@ public class CalculatorServiceController {
 	@Autowired
 	TextOutput textOutput;
 
-	@Value("${property.property1 : defval}")
+	@Value("${property.property1:defaultstring}")
 	private String propprop1;
 
 	@RequestMapping("/getpropertyvalue")
