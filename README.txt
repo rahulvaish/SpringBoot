@@ -1,0 +1,4 @@
+- Create a normal SpringBoot Project
+- Create an instance (with different port) on eclipse
+- Start both the instances
+- Up & Run the SpringBootRibbonLB Project (check application.yml for ports)
